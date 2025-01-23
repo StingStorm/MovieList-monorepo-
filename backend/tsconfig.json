@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"target": "ES2020",
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"baseUrl": ".",
+		"skipLibCheck": true,
+		"allowSyntheticDefaultImports": true,
+		"verbatimModuleSyntax": true,
+		"types": ["@types/node"],
+		"paths": {
+			"@tradlets/service-exchanges/*": ["./*"]
+		}
+	},
+	"include": ["src"]
+}

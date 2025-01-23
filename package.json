@@ -1,0 +1,22 @@
+{
+  "name": "MovieList-monorepo-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "start": "pnpm -r start",
+    "dev": "pnpm -r dev",
+    "dev:f": "pnpm --filter frontend dev",
+    "dev:b": "pnpm --filter backend dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
