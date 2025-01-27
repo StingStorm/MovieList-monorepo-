@@ -1,9 +1,8 @@
-import express from 'express';
+import { setupServer } from './server';
 
-const app = express();
+const bootstrap = async () => {
+  // await initMongoConnection();
+  setupServer();
+};
 
-app.use(express.json());
-
-app.listen(3000, (): void => {
-  console.log('Hello world, Im new server');
-});
+bootstrap();

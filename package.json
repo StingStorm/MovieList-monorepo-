@@ -18,5 +18,8 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@mui/icons-material": "^6.4.1"
   }
 }
